@@ -1,0 +1,15 @@
+#providing the file to run as a sample test
+
+list=[1,2,3,43,54,32,43,54,12,13,87,98,0,9,90,30]
+a=int(input("Enter the number to be searched"))
+n=len(list)
+b=0
+for i in range(0,n):
+    if list[i]==a:
+        print("Number found")
+        print("the index number is :",i)
+        b=1
+        break
+    if b==0:
+        print("Number not present in the list")
+        
